@@ -90,7 +90,7 @@ public class Main {
         System.out.println(10 > 2 ^ 5 > 2); // XOR
         System.out.println("");
 
-        // short-circuit 더 빠르다 나중에 깊게 다뤄드립니다.
+        // short-circuit 앞에 조건식에서 논리가 완성되면 뒤에 조건식은 평가하지 않음 //그래서 빠르지만 뒤에 식이 평가되어야 할때는 오류가 
         System.out.println(10 < 20 && 4 < 2);
         System.out.println(2 > 8 || 2 < 5);
 
